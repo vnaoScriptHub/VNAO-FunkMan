@@ -74,14 +74,15 @@ class FunkPlot():
         self.imageNorthUp    = plt.imread(ImagePath+"NorthUp.png")
         self.imageBullet     = plt.imread(ImagePath+"BulletHole.png")
 
-        try:
-            self.imageUnicorn1   = plt.imread(ImagePath+"Unicorn1.png")
-        except:
-            self.imageUnicorn1=None
-        try:
-            self.imageUnicorn2   = plt.imread(ImagePath+"Unicorn2.png")
-        except:
-            self.imageUnicorn2=None
+        # VNAO Edit: Removed Unicorn image from being applied
+        # try:
+        #     self.imageUnicorn1   = plt.imread(ImagePath+"Unicorn1.png")
+        # except:
+        #     self.imageUnicorn1=None
+        # try:
+        #     self.imageUnicorn2   = plt.imread(ImagePath+"Unicorn2.png")
+        # except:
+        #     self.imageUnicorn2=None
         #self.imageUnicorn3   = plt.imread(ImagePath+"Unicorn3.png")
 
 

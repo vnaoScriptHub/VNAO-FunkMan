@@ -513,10 +513,11 @@ class FunkPlot():
             # Top-down view.
             axs[0].figure.figimage(self.imageLHAtop,   910, 340, alpha=0.75, zorder=1, clip_on=True)
 
-        if grade=="_OK_" and (self.imageUnicorn2 is not None):
-            fig.figimage(self.imageUnicorn2, 550, 450)
-        elif grade=="OK" and (self.imageUnicorn1 is not None):
-            fig.figimage(self.imageUnicorn1, 550, 450)
+         # VNAO Edit: Removed Unicorn image from being applied
+        # if grade=="_OK_" and (self.imageUnicorn2 is not None):
+        #     fig.figimage(self.imageUnicorn2, 550, 450)
+        # elif grade=="OK" and (self.imageUnicorn1 is not None):
+        #     fig.figimage(self.imageUnicorn1, 550, 450)
 
         """
         Glide Slope

@@ -39,10 +39,10 @@ class AircraftType(Enum):
             return 6.75, 7.00, 7.25
         elif self.value==AircraftType.TOMCATA.value:
             # return 9.5, 10.0, 10.5
-            return 14.0, 15.0, 16.0
+            return 9.4, 10.35, 11.28
         elif self.value==AircraftType.TOMCATB.value:
             # return 9.5, 10.0, 10.5
-            return 14.0, 15.0, 16.0
+            return 9.4, 10.35, 11.28
         elif self.value==AircraftType.HARRIER.value:
             # return 10, 11, 12
             return 9.5, 10.0, 12.5

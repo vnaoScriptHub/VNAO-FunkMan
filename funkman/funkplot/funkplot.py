@@ -503,10 +503,10 @@ class FunkPlot():
             # These are the CVN images:
 
             # Side view.
-            axs[0].figure.figimage(self.imageCVNside, 930, 557, alpha=0.45, zorder=1, clip_on=True)
+            axs[0].figure.figimage(self.imageCVNside, 930, 567, alpha=0.45, zorder=1, clip_on=True) #VNAO EDIT change vertical positon
 
             # Top-down view.
-            axs[0].figure.figimage(self.imageCVNtop,  930, 347, alpha=0.45, zorder=1, clip_on=True)
+            axs[0].figure.figimage(self.imageCVNtop,  930, 357, alpha=0.45, zorder=1, clip_on=True)#VNAO EDIT change vertical positon
         else:
             # These are the LHA images:
 
@@ -517,8 +517,8 @@ class FunkPlot():
             axs[0].figure.figimage(self.imageLHAtop,   910, 340, alpha=0.75, zorder=1, clip_on=True)
 
          # VNAO Edit: Removed Unicorn image from being applied
-        # if grade=="_OK_" and (self.imageUnicorn2 is not None):
-        #     fig.figimage(self.imageUnicorn2, 550, 450)
+        if grade=="_OK_" and (self.imageUnicorn2 is not None):
+            fig.figimage(self.imageUnicorn2, 550, 450)
         # elif grade=="OK" and (self.imageUnicorn1 is not None):
         #     fig.figimage(self.imageUnicorn1, 550, 450)
 
